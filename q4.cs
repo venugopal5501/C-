@@ -36,7 +36,6 @@ class Program
             input = venugopal();
             switch (input.ToUpper())
             {
-
                 case "A":
                     DemoQuestion3();
                     break;
@@ -52,7 +51,6 @@ class Program
                 default:
                     Console.WriteLine("invalid choice please try again");
                     break;
-
             }
         }
     }
